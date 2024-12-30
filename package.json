@@ -8,7 +8,8 @@
   },
   "dependencies": {
     "axios": "^1.7.9",
-    "fs": "0.0.1-security"
+    "fs": "0.0.1-security",
+    "ajv": "*"
   },
   "author": "Avi Fenesh",
   "license": "MIT"
