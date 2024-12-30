@@ -33,19 +33,6 @@ echo "Hello, world!"
 - ![Repo 2](https://img.shields.io/badge/Repo2-000000?style=flat&logo=repo2&logoColor=white) Repo 2 (10 contributions)
 - ![Repo 3](https://img.shields.io/badge/Repo3-000000?style=flat&logo=repo3&logoColor=white) Repo 3 (5 contributions)
 
-## Tags and Keywords
-
-- Software development
-- Coding
-- Programming
-- GitHub activity
-- GitHub stats
-- Programming languages
-- Tools and frameworks
-- Social media links
-- Rust
-- Shell (sh)
-
 ## Contact
 
 You can reach me at: avifenesh [at] example [dot] com
