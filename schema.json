@@ -23,12 +23,6 @@
         "required": ["repo", "count"]
       }
     },
-    "achievements": {
-      "type": "array",
-      "items": {
-        "type": "string"
-      }
-    },
     "tags": {
       "type": "array",
       "items": {
@@ -36,5 +30,5 @@
       }
     }
   },
-  "required": ["tools", "contributions", "achievements", "tags"]
+  "required": ["tools", "contributions"]
 }
