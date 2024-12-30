@@ -52,14 +52,6 @@ ${stats.tools.map(tool => `- ![${tool}](https://img.shields.io/badge/${tool}-000
 
 ${stats.contributions.map(contribution => `- ![${contribution.repo}](https://img.shields.io/badge/${contribution.repo}-000000?style=flat&logo=${contribution.repo}&logoColor=white) ${contribution.repo} (${contribution.count} contributions)`).join('\n')}
 
-## Achievements and Milestones
-
-${stats.achievements.map(achievement => `- ${achievement}`).join('\n')}
-
-## Tags and Keywords
-
-${stats.tags.map(tag => `- ${tag}`).join('\n')}
-
 ## Contact
 
 You can reach me at: avifenesh [at] example [dot] com
