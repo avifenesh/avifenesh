@@ -28,7 +28,12 @@ async function fetchGitHubStats() {
     tools
   };
 
-  fs.writeFileSync('stats.json', JSON.stringify(stats, null, 2));
+  try {
+    fs.writeFileSync('stats.json', JSON.stringify(stats, null, 2));
+    console.log('stats.json created successfully');
+  } catch (error) {
+    console.error('Error creating stats.json:', error);
+  }
 }
 
 async function fetchCommits(headers) {

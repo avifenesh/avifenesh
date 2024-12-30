@@ -1,7 +1,14 @@
 const fs = require('fs');
 
 function updateReadme() {
-  const stats = JSON.parse(fs.readFileSync('stats.json', 'utf8'));
+  let stats;
+  try {
+    stats = JSON.parse(fs.readFileSync('stats.json', 'utf8'));
+    console.log('stats.json read successfully');
+  } catch (error) {
+    console.error('Error reading stats.json:', error);
+    return;
+  }
 
   const readmeContent = `
 # avinesh
