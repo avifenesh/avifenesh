@@ -1,3 +1,4 @@
+
 # avinesh
 
 ## Hello Message
@@ -16,9 +17,7 @@ echo "Hello, world!"
 
 ## Most Used Tools
 
-- ![Tool 1](https://img.shields.io/badge/Tool1-000000?style=flat&logo=tool1&logoColor=white) Tool 1 (10 repositories)
-- ![Tool 2](https://img.shields.io/badge/Tool2-000000?style=flat&logo=tool2&logoColor=white) Tool 2 (8 repositories)
-- ![Tool 3](https://img.shields.io-badge/Tool3-000000?style=flat&logo=tool3&logoColor=white) Tool 3 (5 repositories)
+
 
 ## Social Media
 
@@ -29,9 +28,8 @@ echo "Hello, world!"
 
 ## Contributions to Other Repositories
 
-- ![Repo 1](https://img.shields.io/badge/Repo1-000000?style=flat&logo=repo1&logoColor=white) Repo 1 (15 contributions)
-- ![Repo 2](https://img.shields.io/badge/Repo2-000000?style=flat&logo=repo2&logoColor=white) Repo 2 (10 contributions)
-- ![Repo 3](https://img.shields.io/badge/Repo3-000000?style=flat&logo=repo3&logoColor=white) Repo 3 (5 contributions)
+- ![avifenesh](https://img.shields.io/badge/avifenesh-000000?style=flat&logo=avifenesh&logoColor=white) avifenesh (16 contributions)
+- ![dependabot[bot]](https://img.shields.io/badge/dependabot[bot]-000000?style=flat&logo=dependabot[bot]&logoColor=white) dependabot[bot] (1 contributions)
 
 ## Contact
 
