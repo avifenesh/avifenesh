@@ -1,5 +1,6 @@
 const fs = require('fs');
 const axios = require('axios');
+const Ajv = require('ajv');
 
 const GITHUB_API_URL = 'https://api.github.com';
 const USERNAME = 'avifenesh';
@@ -25,8 +26,18 @@ async function fetchGitHubStats() {
     issues,
     contributions,
     languages,
-    tools
+    tools,
+    achievements: [] // Initialize achievements as an empty array
   };
+
+  const ajv = new Ajv();
+  const schema = JSON.parse(fs.readFileSync('schema.json', 'utf8'));
+  const validate = ajv.compile(schema);
+
+  if (!validate(stats)) {
+    console.error('Validation error:', validate.errors);
+    return;
+  }
 
   try {
     fs.writeFileSync('stats.json', JSON.stringify(stats, null, 2));

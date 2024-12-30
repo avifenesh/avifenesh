@@ -1,4 +1,5 @@
 const fs = require('fs');
+const Ajv = require('ajv');
 
 function updateReadme() {
   let stats;
@@ -7,6 +8,15 @@ function updateReadme() {
     console.log('stats.json read successfully');
   } catch (error) {
     console.error('Error reading stats.json:', error);
+    return;
+  }
+
+  const ajv = new Ajv();
+  const schema = JSON.parse(fs.readFileSync('schema.json', 'utf8'));
+  const validate = ajv.compile(schema);
+
+  if (!validate(stats)) {
+    console.error('Validation error:', validate.errors);
     return;
   }
 
