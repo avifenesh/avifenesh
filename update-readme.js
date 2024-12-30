@@ -1,10 +1,16 @@
+const fs = require('fs');
+
+function updateReadme() {
+  const stats = JSON.parse(fs.readFileSync('stats.json', 'utf8'));
+
+  const readmeContent = `
 # avinesh
 
 ## Hello Message
 
-```sh
+\`\`\`sh
 echo "Hello, world!"
-```
+\`\`\`
 
 ## GitHub Activity Stats
 
@@ -16,9 +22,7 @@ echo "Hello, world!"
 
 ## Most Used Tools
 
-- ![Tool 1](https://img.shields.io/badge/Tool1-000000?style=flat&logo=tool1&logoColor=white) Tool 1 (10 repositories)
-- ![Tool 2](https://img.shields.io/badge/Tool2-000000?style=flat&logo=tool2&logoColor=white) Tool 2 (8 repositories)
-- ![Tool 3](https://img.shields.io-badge/Tool3-000000?style=flat&logo=tool3&logoColor=white) Tool 3 (5 repositories)
+${stats.tools.map(tool => `- ![${tool}](https://img.shields.io/badge/${tool}-000000?style=flat&logo=${tool}&logoColor=white) ${tool} (${stats.tools[tool]} repositories)`).join('\n')}
 
 ## Social Media
 
@@ -29,23 +33,22 @@ echo "Hello, world!"
 
 ## Contributions to Other Repositories
 
-- ![Repo 1](https://img.shields.io/badge/Repo1-000000?style=flat&logo=repo1&logoColor=white) Repo 1 (15 contributions)
-- ![Repo 2](https://img.shields.io/badge/Repo2-000000?style=flat&logo=repo2&logoColor=white) Repo 2 (10 contributions)
-- ![Repo 3](https://img.shields.io/badge/Repo3-000000?style=flat&logo=repo3&logoColor=white) Repo 3 (5 contributions)
+${stats.contributions.map(contribution => `- ![${contribution.repo}](https://img.shields.io/badge/${contribution.repo}-000000?style=flat&logo=${contribution.repo}&logoColor=white) ${contribution.repo} (${contribution.count} contributions)`).join('\n')}
+
+## Achievements and Milestones
+
+${stats.achievements.map(achievement => `- ${achievement}`).join('\n')}
 
 ## Tags and Keywords
 
-- Software development
-- Coding
-- Programming
-- GitHub activity
-- GitHub stats
-- Programming languages
-- Tools and frameworks
-- Social media links
-- Rust
-- Shell (sh)
+${stats.tags.map(tag => `- ${tag}`).join('\n')}
 
 ## Contact
 
 You can reach me at: avifenesh [at] example [dot] com
+`;
+
+  fs.writeFileSync('README.md', readmeContent);
+}
+
+updateReadme();
