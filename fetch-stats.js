@@ -53,7 +53,10 @@ async function fetchIssues(headers) {
 
 async function fetchContributions(headers) {
   const response = await axios.get(`${GITHUB_API_URL}/repos/${USERNAME}/${USERNAME}/contributors`, { headers });
-  return response.data.length;
+  return response.data.map(contributor => ({
+    repo: contributor.login,
+    count: contributor.contributions
+  }));
 }
 
 async function fetchLanguages(headers) {
