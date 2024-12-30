@@ -9,7 +9,7 @@ echo "Hello, world!"
 
 ## GitHub Activity Stats
 
-![GitHub Activity Heatmap](https://github-readme-stats.vercel.app/api?username=avifenesh&show_icons=true&theme=radical)
+![GitHub Activity Heatmap](https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=avifenesh&langs_count=10&layout=compact&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR)
 
 ## Most Used Programming Languages
 
