@@ -1,0 +1,15 @@
+{
+  "name": "avinesh",
+  "version": "1.0.0",
+  "description": "A project to update GitHub activity stats and README.md",
+  "main": "fetch-stats.js",
+  "scripts": {
+    "start": "node fetch-stats.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "fs": "0.0.1-security"
+  },
+  "author": "Avi Fenesh",
+  "license": "MIT"
+}
