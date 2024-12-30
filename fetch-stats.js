@@ -27,7 +27,6 @@ async function fetchGitHubStats() {
     contributions,
     languages,
     tools,
-    achievements: [] // Initialize achievements as an empty array
   };
 
   const ajv = new Ajv();
