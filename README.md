@@ -9,11 +9,11 @@ echo "Hello, world!"
 
 ## GitHub Activity Stats
 
-![GitHub Activity Heatmap](https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=avifenesh&langs_count=10&layout=compact&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR)
+![GitHub Activity Heatmap](https://github-readme-stats.vercel.app/api?username=avifenesh&show_icons=true&theme=radical)
 
 ## Most Used Programming Languages
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=avifenesh&size_weight=0.5&count_weight=0.5)](https://github.com/anuraghazra/github-readme-stats)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=avifenesh&layout=compact&theme=radical)
 
 ## Most Used Tools
 
@@ -28,8 +28,9 @@ echo "Hello, world!"
 
 ## Contributions to Other Repositories
 
-- ![avifenesh](https://img.shields.io/badge/avifenesh-000000?style=flat&logo=avifenesh&logoColor=white) avifenesh (16 contributions)
+- ![avifenesh](https://img.shields.io/badge/avifenesh-000000?style=flat&logo=avifenesh&logoColor=white) avifenesh (27 contributions)
 - ![dependabot[bot]](https://img.shields.io/badge/dependabot[bot]-000000?style=flat&logo=dependabot[bot]&logoColor=white) dependabot[bot] (1 contributions)
+- ![github-actions[bot]](https://img.shields.io/badge/github-actions[bot]-000000?style=flat&logo=github-actions[bot]&logoColor=white) github-actions[bot] (1 contributions)
 
 ## Contact
 
