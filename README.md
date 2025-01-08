@@ -8,12 +8,10 @@ echo "Hello, world!"
 ```
 
 ## GitHub Activity Stats
-
-![GitHub Activity Heatmap](https://github-readme-stats.vercel.app/api?username=avifenesh&show_icons=true&theme=radical)
+![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=avifenesh&show_icons=true&count_private=true)
 
 ## Most Used Programming Languages
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=avifenesh&layout=compact&theme=radical)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=avifenesh&layout=compact&count_private=true)
 
 ## Most Used Tools
 
