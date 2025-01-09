@@ -8,12 +8,16 @@ echo "Hello, world!"
 ```
 
 ## GitHub Activity Stats
-![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=avifenesh&show_icons=true&count_private=true)
+
+![GitHub Activity Heatmap](https://github-readme-stats.vercel.app/api?username=avifenesh&show_icons=true&theme=radical)
 
 ## Most Used Programming Languages
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=avifenesh&layout=compact&count_private=true)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=avifenesh&layout=compact&theme=radical)
 
 ## Most Used Tools
+
+
 
 ## Social Media
 
@@ -24,8 +28,8 @@ echo "Hello, world!"
 
 ## Contributions to Other Repositories
 
-- ![avifenesh](https://img.shields.io/badge/avifenesh-000000?style=flat&logo=avifenesh&logoColor=white) avifenesh (27 contributions)
-- ![github-actions[bot]](https://img.shields.io/badge/github-actions[bot]-000000?style=flat&logo=github-actions[bot]&logoColor=white) github-actions[bot] (9 contributions)
+- ![avifenesh](https://img.shields.io/badge/avifenesh-000000?style=flat&logo=avifenesh&logoColor=white) avifenesh (30 contributions)
+- ![github-actions[bot]](https://img.shields.io/badge/github-actions[bot]-000000?style=flat&logo=github-actions[bot]&logoColor=white) github-actions[bot] (10 contributions)
 - ![dependabot[bot]](https://img.shields.io/badge/dependabot[bot]-000000?style=flat&logo=dependabot[bot]&logoColor=white) dependabot[bot] (1 contributions)
 
 ## Contact
