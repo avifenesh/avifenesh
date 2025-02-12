@@ -4,6 +4,8 @@ echo "Hello, world!"
 ```
 ![image_fx_ (5)](https://github.com/user-attachments/assets/7ee37a24-4764-43b3-a52b-3ece1b101bd9)
 
+
+
 Passionate about computer systems and open source :wrench: :headphones:.  
 
 Love logical problems, autodidact (self thought 🧐) and all over the place :loop:.  
