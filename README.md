@@ -6,13 +6,13 @@ echo "Hello, world!"
 
 ## About Me
 
-Passionate about computer systems and open source :wrench: &nbsp; :headphones:.
+Passionate about computer systems and open source :wrench: &nbsp; :headphones:
 
-Love logical problems, autodidact (self-taught &nbsp;🧐) and all over the place &nbsp; :loop:.
+Love logical problems, autodidact (self-taught &nbsp;🧐) and all over the place &nbsp; :loop:
 
-Ask me about in-memory, key-value stores, [Valkey](https://github.com/valkey-io), and [Valkey-Glide](https://github.com/avifenesh/valkey-glide) &nbsp; :closed_lock_with_key:.
+Ask me about in-memory, key-value stores, [Valkey](https://github.com/valkey-io), and [Valkey-Glide](https://github.com/avifenesh/valkey-glide) &nbsp; :closed_lock_with_key:
 
-Software Engineer — AWS Elasticache &nbsp; :shipit:.
+Software Engineer — AWS Elasticache &nbsp; :shipit:
 
 ## Social
 
