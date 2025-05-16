@@ -21,4 +21,7 @@ Software Engineer — AWS Elasticache &nbsp; :shipit:
 [![Twitter](https://img.shields.io/badge/Twitter-000000?style=flat&logo=x&logoColor=white)](https://x.com/avi_fenesh)
 [![Stack Overflow](https://img.shields.io/badge/Stack%20Overflow-000000?style=flat&logo=stackoverflow&logoColor=white)](https://stackoverflow.com/users/12085223/avifen)
 
+On [The AWS Developers Podcast](https://developers.podcast.go-aws.com/web/episodes/165/index.html) talking about valkey-glide:  
+[![Spotify](https://img.shields.io/badge/Listen%20on-Spotify-1DB954?logo=spotify&logoColor=white)](https://open.spotify.com/episode/0yH2ATvTuWQ3wKkFi5VJuJ) 
+
 You can reach me at: [aviarchi1994@gmail.com](mailto:aviarchi1994@gmail.com)
