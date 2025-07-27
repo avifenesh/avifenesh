@@ -1,8 +1,8 @@
 
 ```sh
-echo "Hello, world!"
+$ echo "Hello, world!"
 ```
-![image_fx_ (5)](https://github.com/user-attachments/assets/7ee37a24-4764-43b3-a52b-3ece1b101bd9)
+<img width="1128" height="700" alt="image" src="https://github.com/user-attachments/assets/1607dfc9-9e73-49d5-8c7b-b5f18da67989" />
 
 ## About Me
 
