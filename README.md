@@ -38,7 +38,7 @@ Hands‑on systems learning by building and benchmarking:
 
 - **Valkey GLIDE** — Reliability‑first client for Valkey & Redis OSS; Rust core with multi‑language bindings.  
   https://github.com/valkey-io/valkey-glide
-- **Storage Engine (C)** — Learning‑by‑building columnar engine: indexing, buffer manager, WAL, vectorized operators.  
+- **Storage Engine (C)** — Learning‑by‑building DB engine: indexing, buffer manager, WAL, vectorized operators.  
   https://github.com/avifenesh/storage-engine
 - **Multithreading Workshop (C)** — Practical systems‑level threading lab: atomics, spinlocks, barriers, cache effects, and tooling.  
   https://github.com/avifenesh/multithreading-workshop
