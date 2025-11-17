@@ -27,7 +27,7 @@ Rust, C, Node.js. I design and ship fast, reliable data systems and the client t
 
 Hands‑on systems learning by building and benchmarking:
 
-- **Storage Engine (userspace columnar DB).** Hash/B+ tree indexing, page/buffer manager, WAL, and vectorized execution.  
+- **Storage Engine.** Hash/B+ tree indexing, page/buffer manager, WAL, and vectorized execution.  
   Repo: https://github.com/avifenesh/storage-engine
 - **Multithreading Workshop (C/pthreads).** Exercises on futex‑backed primitives, cache effects, atomics/memory ordering, perf/TSan workflows.  
   Repo: https://github.com/avifenesh/multithreading-workshop
