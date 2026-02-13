@@ -28,7 +28,7 @@ On the side, I build developer tools for the agentic coding era — linters, wor
 ## Projects
 
 - **[agnix](https://github.com/avifenesh/agnix)** — Lint agent configurations before they break your workflow. 100 rules across Claude Code, Cursor, Copilot, Codex CLI, and MCP. Rust core with LSP server, MCP server, and VS Code extension.
-- **[awesome‑slash](https://github.com/avifenesh/awesome-slash)** — Production‑ready plugins, agents, and skills for Claude Code, OpenCode, and Codex CLI. 11 plugins, 40 agents, 26 skills — from task‑to‑PR automation to performance investigation.
+- **[AgentSys](https://github.com/avifenesh/agentsys)** — A modular runtime and orchestration system for AI agents. 12 plugins, 41 agents, 27 skills — structured pipelines for Claude Code, OpenCode, and Codex CLI.
 - **[Valkey GLIDE](https://github.com/valkey-io/valkey-glide)** — Reliability‑first client for Valkey & Redis OSS; Rust core with multi‑language bindings.
 
 ---
