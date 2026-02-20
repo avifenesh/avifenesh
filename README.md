@@ -9,9 +9,10 @@ Rust, C, Node.js. I build fast, reliable data systems and the client tooling aro
 
 On the side, I build developer tools for the agentic coding era — linters, workflow automation, and editor integrations that make AI-assisted development actually work.
 
+Im updating on new releases, tooling and more in [![X](https://img.shields.io/badge/X-111111?style=flat&logo=x&logoColor=white)](https://x.com/avi_fenesh) so you welcome to follow along if you want to be up to date with the last releases.
+
 [![GitHub](https://img.shields.io/badge/GitHub-000000?style=flat&logo=github&logoColor=white)](https://github.com/avifenesh)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/avi-fenesh/)
-[![X](https://img.shields.io/badge/X-111111?style=flat&logo=x&logoColor=white)](https://x.com/avi_fenesh)
 [![Stack Overflow](https://img.shields.io/badge/Stack%20Overflow-F48024?style=flat&logo=stackoverflow&logoColor=white)](https://stackoverflow.com/users/12085223/avifen)
 
 ---
