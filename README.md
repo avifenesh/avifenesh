@@ -9,9 +9,9 @@ Rust, C, Node.js. I build fast, reliable data systems and the client tooling aro
 
 On the side, I build developer tools for the agentic coding era — linters, workflow automation, and editor integrations that make AI-assisted development actually work.
 
-I post releases, tooling drops, and in-progress work on X (Twitter) first — the GitHub repo gets the polished version. If you want the early signal, follow me there - [![X](https://img.shields.io/badge/X-111111?style=flat&logo=x&logoColor=white)](https://x.com/avi_fenesh) 
+I post releases, tooling drops, and in-progress work on X (Twitter) first — the GitHub repo gets the polished version. If you want the early signal, follow me there  
+[![X: logs](https://img.shields.io/badge/build_logs-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/avi_fenesh)  
 
-[![GitHub](https://img.shields.io/badge/GitHub-000000?style=flat&logo=github&logoColor=white)](https://github.com/avifenesh)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/avi-fenesh/)
 [![Stack Overflow](https://img.shields.io/badge/Stack%20Overflow-F48024?style=flat&logo=stackoverflow&logoColor=white)](https://stackoverflow.com/users/12085223/avifen)
 
@@ -50,7 +50,6 @@ Low‑level systems (memory layout, concurrency, OS internals) · Developer expe
 ---
 
 ## Contact
-
 **aviarchi1994@gmail.com** — Happy to talk systems, Rust/C, datastore internals, agentic tooling, or DX.
 
 ---
