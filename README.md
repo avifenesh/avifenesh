@@ -30,7 +30,7 @@ By day I work on high-performance in-memory data systems at **AWS ElastiCache**.
 - **[valkey-io/valkey-skills](https://github.com/valkey-io/valkey-skills/pulls)** - official Valkey AI skills. I created the first skills and supporting structure for Valkey, GLIDE, migrations, ops, internals, docs, and agent workflows. My personal `valkey-skills` repo is the working/staging area while pieces merge upstream.
 - **Private Valkey review automation** - autonomous PR-review tooling for `valkey-io/valkey`, built around Valkey-specific review knowledge and Bedrock AgentCore.
 - **[claucode.nvim](https://github.com/avifenesh/claucode.nvim)** - Neovim bridge for Claude Code with multi-session support, file watching, prompt/context helpers, and MCP-powered diff preview.
-- **[computer-use-linux](https://github.com/agent-sh/computer-use-linux)** - Linux desktop control over MCP using AT-SPI, GNOME Shell, Wayland portals, and ydotool; extracted from the Linux Computer Use work shipped through Codex Desktop Linux.
+- **[computer-use-linux](https://github.com/agent-sh/computer-use-linux)** - Linux desktop control over MCP using AT-SPI, GNOME Shell, Wayland portals, and ydotool; extracted from the Linux Computer Use work shipped through Codex Desktop Linux, including performance work and read-aloud support.
 - **[tools](https://github.com/avifenesh/tools)** - TypeScript-first agent tool harness with Rust parity for read/write/grep/glob/bash/webfetch/LSP/skill tools, designed around how real LLMs recover from errors.
 
 ---
