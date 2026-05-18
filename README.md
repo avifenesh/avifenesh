@@ -1,5 +1,8 @@
 # Avi Fenesh
 
+[![Sponsor Avi](https://img.shields.io/badge/Sponsor-Avi%20Fenesh-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/avifenesh)
+[![Sponsor agent-sh](https://img.shields.io/badge/Sponsor-agent--sh-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/agent-sh)
+
 ```sh
 $ echo "Hello, world!"
 ```
@@ -75,7 +78,7 @@ I am especially interested in support for:
 - **OSS support:** issue triage, user debugging, CI/release health, docs, examples, and contributor onboarding
 - **Mentoring:** helping newer engineers learn real production engineering and enter OSS with confidence
 
-GitHub Sponsors setup is next for my personal work and for **agent-sh**. This is not a `valkey-io` sponsorship ask.
+[Sponsor my personal OSS work](https://github.com/sponsors/avifenesh) or [support agent-sh](https://github.com/sponsors/agent-sh). This is not a `valkey-io` sponsorship ask.
 
 ---
 
