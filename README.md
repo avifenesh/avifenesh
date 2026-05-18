@@ -58,7 +58,7 @@ I am especially interested in support for:
 - agent-sh tooling that keeps AI-assisted development reproducible instead of chaotic
 - low-level client/runtime work in Rust, C, Java/JNI, Node/N-API, OCaml, and Linux
 
-GitHub Sponsors setup is next. Until then, the best support is: use the projects, open precise issues, share production feedback, star what helped, and point people at the tools when they solve a real problem.
+GitHub Sponsors setup is next for my personal work and for **agent-sh**. This is not a `valkey-io` sponsorship ask. Until then, the best support is: use the projects, open precise issues, share production feedback, star what helped, and point people at the tools when they solve a real problem.
 
 ---
 
