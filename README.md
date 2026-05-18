@@ -27,10 +27,16 @@ By day I work on high-performance in-memory data systems at **AWS ElastiCache**.
 - **[glide-mq](https://github.com/avifenesh/glide-mq)** - high-performance Node.js queue on Valkey/Redis Streams with a Rust N-API core, 1 RTT per job, server functions, workflows, schedulers, retries, DLQs, OpenTelemetry, dashboard/plugins, and AI-native primitives like token streaming, budget caps, suspend/resume, and model fallback chains.
 - **[ocaml-valkey](https://github.com/avifenesh/ocaml-valkey)** - modern OCaml 5 + Eio Valkey client: RESP3-only, cluster routing, TLS/mTLS, IAM auth, client-side caching, pub/sub, batching, blocking pools, typed module wrappers, tests, fuzzing, and docs.
 - **[FlowFabric](https://github.com/avifenesh/FlowFabric)** - Rust durable execution engine for Valkey/Postgres/SQLite with lease-safe workers, waitpoints, HMAC-signed human approval, capability routing, budgets, and streaming output.
-- **[valkey-io/valkey-skills](https://github.com/valkey-io/valkey-skills)** - official Valkey AI skills. I created the first skills and supporting structure for Valkey, GLIDE, migrations, ops, internals, docs, and agent workflows. My personal `valkey-skills` repo is the working/staging area while pieces merge upstream.
+- **[valkey-io/valkey-skills](https://github.com/valkey-io/valkey-skills/pulls)** - official Valkey AI skills. I created the first skills and supporting structure for Valkey, GLIDE, migrations, ops, internals, docs, and agent workflows. My personal `valkey-skills` repo is the working/staging area while pieces merge upstream.
 - **Private Valkey review automation** - autonomous PR-review tooling for `valkey-io/valkey`, built around Valkey-specific review knowledge and Bedrock AgentCore.
 - **[claucode.nvim](https://github.com/avifenesh/claucode.nvim)** - Neovim bridge for Claude Code with multi-session support, file watching, prompt/context helpers, and MCP-powered diff preview.
 - **[tools](https://github.com/avifenesh/tools)** - TypeScript-first agent tool harness with Rust parity for read/write/grep/glob/bash/webfetch/LSP/skill tools, designed around how real LLMs recover from errors.
+
+---
+
+## Selected Contributions
+
+Beyond the projects I own or maintain, I also contribute patches, review, docs, and ecosystem fixes across projects I use and care about, including **[Valkey](https://github.com/valkey-io/valkey)**, **[Valkey docs](https://github.com/valkey-io/valkey-doc)**, **[Valkey website](https://github.com/valkey-io/valkey-io.github.io)**, **[valkey-io/valkey-skills](https://github.com/valkey-io/valkey-skills/pulls)**, **[codex-desktop-linux](https://github.com/avifenesh/codex-desktop-linux)**, **[rustowl](https://github.com/avifenesh/rustowl)**, and **[tuicr](https://github.com/avifenesh/tuicr)**.
 
 ---
 
@@ -41,7 +47,7 @@ I do not own `valkey-io`. I maintain and manage community around **Valkey GLIDE*
 - **[Valkey GLIDE](https://github.com/valkey-io/valkey-glide)** - maintainer and community-management work across user support, issue triage, contributor onboarding, API review, reliability fixes, TLS, timeouts, Java/JNI, Node/N-API, CI, docs, and releases.
 - **[Valkey](https://github.com/valkey-io/valkey)** - direct upstream core contributions and compatibility work, including `valkey-cli` naming/defaults and ecosystem behavior.
 - **[Valkey docs](https://github.com/valkey-io/valkey-doc) and [website](https://github.com/valkey-io/valkey-io.github.io)** - docs/site contributions, including installation/download improvements.
-- **[Official Valkey skills](https://github.com/valkey-io/valkey-skills)** - AI knowledge packs for Valkey and GLIDE. I started this work and maintain the personal staging repo while upstream review/merge catches up.
+- **[Official Valkey skills](https://github.com/valkey-io/valkey-skills/pulls)** - AI knowledge packs for Valkey and GLIDE. I started this work and maintain the personal staging repo while upstream review/merge catches up.
 - **Valkey review automation** - private autonomous reviewer tooling for Valkey PRs, plus skills and benchmark work that teach agents how to review Valkey code with project-specific context.
 - **Independent Valkey tooling** - queues, workflow engines, OCaml client work, migration adapters, examples, and docs that help the ecosystem around Valkey grow.
 
