@@ -46,7 +46,7 @@ Beyond the projects I own or maintain, I also contribute patches, review, docs, 
 I do not own `valkey-io`. I maintain and manage community around **Valkey GLIDE**, and I contribute to Valkey core, docs, website, and ecosystem tooling as part of the broader project.
 
 - **[Valkey GLIDE](https://github.com/valkey-io/valkey-glide)** - maintainer and community-management work across user support, issue triage, contributor onboarding, API review, reliability fixes, TLS, timeouts, Java/JNI, Node/N-API, CI, docs, and releases.
-- **[Valkey](https://github.com/valkey-io/valkey)** - direct upstream core contributions and compatibility work, including [#3724](https://github.com/valkey-io/valkey/pull/3724), [#3608](https://github.com/valkey-io/valkey/pull/3608), `valkey-cli` naming/defaults, and ecosystem behavior.
+- **[Valkey](https://github.com/valkey-io/valkey)** - direct upstream core contributions, compatibility work, CLI behavior, and ecosystem improvements across the server project.
 - **[Valkey docs](https://github.com/valkey-io/valkey-doc) and [website](https://github.com/valkey-io/valkey-io.github.io)** - docs/site contributions, including installation/download improvements.
 - **[Official Valkey skills](https://github.com/valkey-io/valkey-skills/pulls)** - AI knowledge packs for Valkey and GLIDE. I started this work and maintain the personal staging repo while upstream review/merge catches up.
 - **Valkey review automation** - private autonomous reviewer tooling for Valkey PRs, plus skills and benchmark work that teach agents how to review Valkey code with project-specific context.
