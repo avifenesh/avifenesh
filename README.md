@@ -4,11 +4,11 @@
 $ echo "Hello, world!"
 ```
 
-I build and maintain open-source systems around **Valkey**, **agentic developer tooling**, and low-level runtime work. The common thread is practical infrastructure: clients, queues, workflow engines, linters, editor tooling, docs, examples, and the support work that helps other people actually use them.
+I build and maintain open-source systems around **Valkey**, **agentic developer tooling**, and low-level runtime work. The common thread is practical infrastructure: clients, queues, workflow engines, linters, review systems, editor tooling, docs, examples, and the support work that helps other people actually use them.
 
-I run **[agent-sh](https://github.com/agent-sh)**, an open-source org for AI-assisted development workflows, and I maintain independent Valkey-adjacent projects such as **[glide-mq](https://github.com/avifenesh/glide-mq)**, **[ocaml-valkey](https://github.com/avifenesh/ocaml-valkey)**, **[FlowFabric](https://github.com/avifenesh/FlowFabric)**, and **[valkey-skills](https://github.com/avifenesh/valkey-skills)**.
+I run **[agent-sh](https://github.com/agent-sh)**, an open-source org for AI-assisted development workflows. I maintain **Valkey GLIDE** and help manage its community, while also building Valkey ecosystem infrastructure such as **[valkey-io/valkey-skills](https://github.com/valkey-io/valkey-skills)**, **[valkey-reviewer](https://github.com/avifenesh/valkey-reviewer)**, **[glide-mq](https://github.com/avifenesh/glide-mq)**, **[ocaml-valkey](https://github.com/avifenesh/ocaml-valkey)**, and **[FlowFabric](https://github.com/avifenesh/FlowFabric)**.
 
-I also contribute to and support the broader **Valkey / Valkey GLIDE** ecosystem: issue triage, debugging user reports, CI and flaky-test cleanup, docs, examples, contributor onboarding, API review, and keeping OSS discussions useful enough that people still want to participate.
+I also contribute to the broader **Valkey** project: core server PRs, website work, docs/man-page content, official AI skills, review automation, contributor onboarding, and keeping OSS discussions useful enough that people still want to participate.
 
 By day I work on high-performance in-memory data systems at **AWS ElastiCache**. That gives context for the systems work, but this profile is about my personal and community OSS.
 
@@ -27,7 +27,8 @@ By day I work on high-performance in-memory data systems at **AWS ElastiCache**.
 - **[glide-mq](https://github.com/avifenesh/glide-mq)** - high-performance Node.js queue on Valkey/Redis Streams with a Rust N-API core, 1 RTT per job, server functions, workflows, schedulers, retries, DLQs, OpenTelemetry, dashboard/plugins, and AI-native primitives like token streaming, budget caps, suspend/resume, and model fallback chains.
 - **[ocaml-valkey](https://github.com/avifenesh/ocaml-valkey)** - modern OCaml 5 + Eio Valkey client: RESP3-only, cluster routing, TLS/mTLS, IAM auth, client-side caching, pub/sub, batching, blocking pools, typed module wrappers, tests, fuzzing, and docs.
 - **[FlowFabric](https://github.com/avifenesh/FlowFabric)** - Rust durable execution engine for Valkey/Postgres/SQLite with lease-safe workers, waitpoints, HMAC-signed human approval, capability routing, budgets, and streaming output.
-- **[valkey-skills](https://github.com/avifenesh/valkey-skills)** - 24 AI skills and 190 markdown reference files for Valkey, GLIDE, migrations, ops, server internals, Search, Bloom, and queue workflows; source-verified against real Valkey/GLIDE code.
+- **[valkey-io/valkey-skills](https://github.com/valkey-io/valkey-skills)** - official Valkey AI skills. I created the first skills and supporting structure for Valkey, GLIDE, migrations, ops, internals, docs, and agent workflows. My personal `valkey-skills` repo is the working/staging area while pieces merge upstream.
+- **[valkey-reviewer](https://github.com/avifenesh/valkey-reviewer)** - autonomous PR reviewer for `valkey-io/valkey`, built around Valkey-specific review knowledge and Bedrock AgentCore.
 - **[claucode.nvim](https://github.com/avifenesh/claucode.nvim)** - Neovim bridge for Claude Code with multi-session support, file watching, prompt/context helpers, and MCP-powered diff preview.
 - **[tools](https://github.com/avifenesh/tools)** - TypeScript-first agent tool harness with Rust parity for read/write/grep/glob/bash/webfetch/LSP/skill tools, designed around how real LLMs recover from errors.
 
@@ -35,17 +36,20 @@ By day I work on high-performance in-memory data systems at **AWS ElastiCache**.
 
 ## Valkey Ecosystem
 
-I do not own `valkey-io`; I contribute to and support it as part of the community.
+I do not own `valkey-io`. I maintain and manage community around **Valkey GLIDE**, and I contribute to Valkey core, docs, website, and ecosystem tooling as part of the broader project.
 
-- **[Valkey GLIDE](https://github.com/valkey-io/valkey-glide)** - maintenance and implementation work across reliability, TLS, timeouts, Java/JNI, Node/N-API, CI, docs, and user support.
-- **[Valkey](https://github.com/valkey-io/valkey)** - upstream contributions and compatibility work, including naming and ecosystem behavior.
-- **Independent Valkey tooling** - queues, workflow engines, OCaml client work, migration adapters, skills, examples, and docs that help the ecosystem around Valkey grow.
+- **[Valkey GLIDE](https://github.com/valkey-io/valkey-glide)** - maintainer and community-management work across user support, issue triage, contributor onboarding, API review, reliability fixes, TLS, timeouts, Java/JNI, Node/N-API, CI, docs, and releases.
+- **[Valkey](https://github.com/valkey-io/valkey)** - upstream contributions and compatibility work, including `valkey-cli` naming/defaults and ecosystem behavior.
+- **[Valkey docs](https://github.com/valkey-io/valkey-doc) and [website](https://github.com/valkey-io/valkey-io.github.io)** - docs/site contributions, including installation/download improvements.
+- **[Official Valkey skills](https://github.com/valkey-io/valkey-skills)** - AI knowledge packs for Valkey and GLIDE. I started this work and maintain the personal staging repo while upstream review/merge catches up.
+- **Valkey review automation** - `valkey-reviewer`, an autonomous reviewer for Valkey PRs, plus skills and benchmark work that teach agents how to review Valkey code with project-specific context.
+- **Independent Valkey tooling** - queues, workflow engines, OCaml client work, migration adapters, examples, and docs that help the ecosystem around Valkey grow.
 
 ---
 
 ## Community & Mentoring
 
-- **Support:** I spend real time on issue triage, reproductions, user debugging, integration guidance, CI failures, docs, and migration questions.
+- **Support:** I spend real time on issue triage, reproductions, user debugging, integration guidance, CI failures, docs, migration questions, and helping contributors land better PRs.
 - **Stack Overflow:** `1,100+` reputation, `~25k` people reached, strongest tag: `redis`.
 - **Reddit:** `u/code_things`, sharing and gathering feedback for GLIDE MQ, OCaml Valkey, agent-sh, and Valkey client work.
 - **Mentoring:** I mentor early-career engineers through production habits: feature branches, PR review, tests, CI/CD, system design, distributed systems, Valkey, Kafka, SSE, Postgres, Java, Node.js, and open-source contribution.
@@ -60,7 +64,7 @@ If my OSS maintenance, debugging, docs, tooling, mentorship, or community suppor
 I am especially interested in support for:
 
 - **agent-sh** tooling: agentsys, agnix, harness tools, skills, plugins, docs, examples, and release work
-- **Valkey-adjacent personal projects:** GLIDE MQ, OCaml Valkey, FlowFabric, valkey-skills, adapters, examples, and migration guides
+- **Valkey ecosystem tooling:** GLIDE MQ, OCaml Valkey, FlowFabric, valkey-reviewer, skills, adapters, examples, and migration guides
 - **OSS support:** issue triage, user debugging, CI/release health, docs, examples, and contributor onboarding
 - **Mentoring:** helping newer engineers learn real production engineering and enter OSS with confidence
 
