@@ -36,7 +36,7 @@ By day I work on high-performance in-memory data systems at **AWS ElastiCache**.
 
 ## Selected Contributions
 
-Beyond the projects I own or maintain, I also contribute patches, review, docs, and ecosystem fixes across projects I use and care about, including **[Valkey](https://github.com/valkey-io/valkey)**, **[Valkey docs](https://github.com/valkey-io/valkey-doc)**, **[Valkey website](https://github.com/valkey-io/valkey-io.github.io)**, **[valkey-io/valkey-skills](https://github.com/valkey-io/valkey-skills/pulls)**, **[codex-desktop-linux](https://github.com/avifenesh/codex-desktop-linux)**, **[rustowl](https://github.com/avifenesh/rustowl)**, and **[tuicr](https://github.com/avifenesh/tuicr)**.
+Beyond the projects I own or maintain, I also contribute patches, review, docs, and ecosystem fixes across projects I use and care about, including **[Valkey](https://github.com/valkey-io/valkey)**, **[Valkey docs](https://github.com/valkey-io/valkey-doc)**, **[Valkey website](https://github.com/valkey-io/valkey-io.github.io)**, **[valkey-io/valkey-skills](https://github.com/valkey-io/valkey-skills/pulls)**, **[codex-desktop-linux](https://github.com/avifenesh/codex-desktop-linux)**, **[node-rate-limiter-flexible](https://github.com/animir/node-rate-limiter-flexible)**, **[rustowl](https://github.com/avifenesh/rustowl)**, and **[tuicr](https://github.com/avifenesh/tuicr)**.
 
 ---
 
