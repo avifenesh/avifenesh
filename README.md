@@ -22,7 +22,7 @@ I build low-level systems, local inference/ML tooling, and the infrastructure th
 ## Systems & performance
 
 - **[Valkey GLIDE](https://github.com/valkey-io/valkey-glide)** - maintainer of the official multi-language Valkey/Redis client (Rust core, Java/JNI, Node/N-API): reliability fixes, TLS, timeout/retry behavior, API review, CI, releases, and community.
-- **[Valkey](https://github.com/valkey-io/valkey)** - contributor to the in-memory datastore core; started the official **[valkey-skills](https://github.com/valkey-io/valkey-skills)** and private Bedrock-AgentCore PR-review automation.
+- **[Valkey](https://github.com/valkey-io/valkey)** - contributor to the in-memory datastore core; started the official **[valkey-skills](https://github.com/valkey-io/valkey-skills)**.
 - **[rustowl](https://github.com/cordx56/rustowl)** - performance and reliability work on the ownership/lifetime visualizer (5k★ Rust): runtime/stack-size refactor, jemalloc integration, memory fixes, benchmarking, and CI/security-testing workflows.
 - **[FlowFabric](https://github.com/avifenesh/FlowFabric)** - Rust durable-execution engine for Valkey/Postgres/SQLite: lease-safe workers, waitpoints, HMAC-signed human approval, capability routing, budgets, and streaming output.
 - **Low-level tooling** - **[layout-audit](https://github.com/avifenesh/layout-audit)** (DWARF binary memory-layout analysis: padding, layout diffs, size budgets for C/C++/Rust/Go) and **[scrump](https://github.com/avifenesh/scrump)** (format-aware secret scrubber for binary capture artifacts).
