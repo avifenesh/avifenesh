@@ -9,7 +9,7 @@ $ echo "Hello, world!"
 
 I build and maintain open-source systems around **Valkey**, **agentic developer tooling**, and low-level runtime work. The common thread is practical infrastructure: clients, queues, workflow engines, linters, review systems, editor tooling, docs, examples, and the support work that helps other people actually use them.
 
-I run **[agent-sh](https://github.com/agent-sh)**, an open-source org for AI-assisted development workflows: 24 plugins, 50 agents, 45 skills, **agnix**, and Linux computer-use tooling. I maintain **Valkey GLIDE** and help manage its community, while also building Valkey ecosystem infrastructure such as **[valkey-io/valkey-skills](https://github.com/valkey-io/valkey-skills)**, private Valkey review automation, **[glide-mq](https://github.com/avifenesh/glide-mq)**, **[ocaml-valkey](https://github.com/avifenesh/ocaml-valkey)**, and **[FlowFabric](https://github.com/avifenesh/FlowFabric)**.
+I run **[agent-sh](https://github.com/agent-sh)**, an open-source org for AI-assisted development workflows: 24 plugins, 49 agents, 44 skills, 24 commands, **agnix**, and Linux desktop/computer-use tooling for agents. I maintain **Valkey GLIDE** and help manage its community, while also building Valkey ecosystem infrastructure such as **[valkey-io/valkey-skills](https://github.com/valkey-io/valkey-skills)**, private Valkey review automation, **[glide-mq](https://github.com/avifenesh/glide-mq)**, **[ocaml-valkey](https://github.com/avifenesh/ocaml-valkey)**, and **[FlowFabric](https://github.com/avifenesh/FlowFabric)**.
 
 I also contribute directly to **Valkey itself**: core server PRs, compatibility work, website work, docs/man-page content, official AI skills, review automation, contributor onboarding, and keeping OSS discussions useful enough that people still want to participate.
 
@@ -24,17 +24,19 @@ By day I work on high-performance in-memory data systems at **AWS ElastiCache**.
 
 ## Work Worth Supporting
 
-- **[agent-sh](https://github.com/agent-sh)** - DX-focused ecosystem for AI-powered research and development, with 34 public repos, 24 plugins, 50 agents, and 45 skills.
-- **[agentsys](https://github.com/agent-sh/agentsys)** - agent orchestration runtime and marketplace: 24 plugins, 50 agents, 45 skills, phase-gated workflows, and support for Claude Code, OpenCode, Codex, Cursor, and Kiro.
-- **[agnix](https://github.com/agent-sh/agnix)** - Rust linter, LSP, MCP server, GitHub Action, and editor integrations for AI coding assistant configs. It validates `CLAUDE.md`, `AGENTS.md`, `SKILL.md`, hooks, MCP, and plugin metadata with 423 rules.
+- **[agent-sh](https://github.com/agent-sh)** - DX-focused ecosystem for AI-powered research and development, with 36 public repos, 24 plugins, 49 agents, 44 skills, and 24 commands.
+- **[agentsys](https://github.com/agent-sh/agentsys)** - agent orchestration runtime and marketplace: 24 plugins, 49 agents, 44 skills, 24 commands, phase-gated workflows, and support for Claude Code, OpenCode, Codex, Cursor, and Kiro.
+- **[agnix](https://github.com/agent-sh/agnix)** - Rust linter, LSP, MCP server, GitHub Action, and editor integrations for AI coding assistant configs. It validates `CLAUDE.md`, `AGENTS.md`, `SKILL.md`, hooks, MCP, and plugin metadata with 432 rules.
 - **[glide-mq](https://github.com/avifenesh/glide-mq)** - published high-performance Node.js queue on Valkey/Redis Streams with a Rust N-API core, 1 RTT per job, server functions, workflows, schedulers, retries, DLQs, OpenTelemetry, dashboard/plugins, and AI-native primitives like token streaming, budget caps, suspend/resume, and model fallback chains. It also has framework plugins for **[Hono](https://github.com/avifenesh/glidemq-hono)**, **[Fastify](https://github.com/avifenesh/glidemq-fastify)**, **[Hapi](https://github.com/avifenesh/glidemq-hapi)**, and **[NestJS](https://github.com/avifenesh/glidemq-nestjs)**; all except NestJS are listed on their official ecosystem/plugin pages.
-- **[ocaml-valkey](https://github.com/avifenesh/ocaml-valkey)** - modern OCaml 5 + Eio Valkey client, published on **[opam](https://opam.ocaml.org/packages/valkey)**: RESP3-only, cluster routing, TLS/mTLS, IAM auth, client-side caching, pub/sub, batching, blocking pools, typed module wrappers, tests, fuzzing, and docs.
+- **[ocaml-valkey](https://github.com/avifenesh/ocaml-valkey)** - modern OCaml 5 + Eio Valkey client, published on **[opam](https://opam.ocaml.org/packages/valkey)** (v0.4.0): RESP3-only, cluster routing with quorum topology discovery and AZ-aware replica reads, TLS/mTLS, client-side caching, pub/sub, batching, blocking pools, Valkey 8.1/9 features (SET IFEQ, hash-field TTL), Search/JSON/Bloom module wrappers, tests, fuzzing, and docs.
 - **[FlowFabric](https://github.com/avifenesh/FlowFabric)** - Rust durable execution engine for Valkey/Postgres/SQLite with lease-safe workers, waitpoints, HMAC-signed human approval, capability routing, budgets, and streaming output.
 - **[valkey-io/valkey-skills](https://github.com/valkey-io/valkey-skills/pulls)** - official Valkey AI skills. I created the first skills and supporting structure for Valkey, GLIDE, migrations, ops, internals, docs, and agent workflows. My personal `valkey-skills` repo is the working/staging area while pieces merge upstream.
 - **Private Valkey review automation** - autonomous PR-review tooling for `valkey-io/valkey`, built around Valkey-specific review knowledge and Bedrock AgentCore.
 - **[claucode.nvim](https://github.com/avifenesh/claucode.nvim)** - Neovim bridge for Claude Code with multi-session support, file watching, prompt/context helpers, and MCP-powered diff preview.
 - **[computer-use-linux](https://github.com/agent-sh/computer-use-linux)** - Linux desktop control over MCP using AT-SPI, GNOME Shell, Wayland portals, and ydotool; extracted from the Linux Computer Use work shipped through Codex Desktop Linux, including performance work and read-aloud support.
+- **[agent-workspace-linux](https://github.com/agent-sh/agent-workspace-linux)** - isolated, agent-owned Linux desktop workspaces over MCP: a hidden desktop and browser an agent can use for GUI and web work without touching your real desktop.
 - **[tools](https://github.com/avifenesh/tools)** - TypeScript-first agent tool harness with Rust parity for read/write/grep/glob/bash/webfetch/LSP/skill tools, designed around how real LLMs recover from errors.
+- **Low-level / systems tooling** - **[layout-audit](https://github.com/avifenesh/layout-audit)** (GitHub Action + CLI that parses DWARF to analyze binary memory layouts, detect padding, diff and enforce size budgets for C/C++/Rust/Go), **[scrump](https://github.com/avifenesh/scrump)** (fast, format-aware secret scrubber for binary capture artifacts like perf.data, nsys-rep, ELF cores, JFR, pcap), and **[eigen](https://github.com/avifenesh/eigen)** (a terminal-first local coding agent in Go: one daemon, many resumable sessions, multi-provider routing, memory, and observability).
 
 ---
 
@@ -60,7 +62,7 @@ I do not own `valkey-io`. I maintain and manage community around **Valkey GLIDE*
 ## Community & Mentoring
 
 - **Support:** I spend real time on issue triage, reproductions, user debugging, integration guidance, CI failures, docs, migration questions, and helping contributors land better PRs.
-- **Stack Overflow:** `1,100+` reputation, `~25k` people reached, strongest tag: `redis`.
+- **Stack Overflow:** `1,130+` reputation across `~25k` people reached, strongest tags: `redis`, `github-actions`, `node.js`, `amazon-web-services`, and `valkey`.
 - **Reddit:** `u/code_things`, sharing and gathering feedback for GLIDE MQ, OCaml Valkey, agent-sh, and Valkey client work.
 - **Mentoring:** I mentor early-career engineers through production habits: feature branches, PR review, tests, CI/CD, system design, distributed systems, Valkey, Kafka, SSE, Postgres, Java, Node.js, and open-source contribution.
 - **Tone:** I care about the human side of OSS: clearer issues, kinder reviews, direct technical feedback, and contributor paths that do not make people feel stupid for trying.
