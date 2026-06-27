@@ -17,7 +17,7 @@ I build low-level systems, local inference/ML tooling, and the infrastructure th
 - **[computer-use-linux](https://github.com/agent-sh/computer-use-linux)** - Linux desktop control over MCP via AT-SPI, GNOME Shell, Wayland portals, and ydotool. Shipped through Codex Desktop Linux, including the performance and read-aloud work.
 - **[agnix](https://github.com/agent-sh/agnix)** - the missing linter + LSP for AI coding-assistant configs. Rust core with a GitHub Action, MCP server, and editor plugins; 432 rules over `CLAUDE.md`, `AGENTS.md`, `SKILL.md`, hooks, MCP, and plugin metadata, with autofixes.
 - **[agent-sh](https://github.com/agent-sh)** / **[agentsys](https://github.com/agent-sh/agentsys)** - the org I run: a DX-focused ecosystem for AI-assisted development. 24 plugins, 49 agents, 44 skills, 24 commands, phase-gated workflows; works with Claude Code, OpenCode, Codex, Cursor, and Kiro.
-- **[eigen](https://github.com/avifenesh/eigen)** - terminal-first local agent harness in Go: one daemon, many resumable sessions, multi-provider routing (Bedrock/Claude/OpenAI-compatible/local), memory, and observability.
+- **[eigen](https://github.com/avifenesh/eigen)** - local agent harness in Go with both a GUI and a CLI: one daemon, many resumable sessions, multi-provider routing (Bedrock/Claude/OpenAI-compatible/local), memory, and observability.
 
 ## Systems & performance
 
