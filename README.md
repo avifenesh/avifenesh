@@ -20,21 +20,20 @@ I build low-level systems, local inference/ML tooling, and the infrastructure th
 
 ## Systems & performance
 
-- **[layout-audit](https://github.com/avifenesh/layout-audit)** - GitHub Action + CLI that parses DWARF to analyze binary memory layouts: detect padding, diff layouts, and enforce size budgets for C/C++/Rust/Go.
-- **[scrump](https://github.com/avifenesh/scrump)** - fast, format-aware secret scrubber for binary capture artifacts (perf.data, nsys-rep, ELF cores, JFR, pcap, SQLite, tar/zip).
+- **[Valkey GLIDE](https://github.com/valkey-io/valkey-glide)** - maintainer of the multi-language Valkey/Redis client (Rust core, Java/JNI, Node/N-API): reliability fixes, TLS, timeout/retry behavior, API review, CI, and releases, plus running the community around it.
+- **[Valkey](https://github.com/valkey-io/valkey)** - upstream contributions to the in-memory datastore core, compatibility, and CLI behavior; started the official **[valkey-skills](https://github.com/valkey-io/valkey-skills)** and private Bedrock-AgentCore PR-review automation for Valkey.
+- **[rustowl](https://github.com/cordx56/rustowl)** - performance and reliability work on the ownership/lifetime visualizer (5k★ Rust): runtime/stack-size refactor, jemalloc integration, memory fixes, benchmarking, and CI/security-testing workflows.
 - **[FlowFabric](https://github.com/avifenesh/FlowFabric)** - Rust durable-execution engine for Valkey/Postgres/SQLite: lease-safe workers, waitpoints, HMAC-signed human approval, capability routing, budgets, and streaming output.
-- **[eigen](https://github.com/avifenesh/eigen)** - terminal-first local coding agent in Go: one daemon, many resumable sessions, multi-provider routing (Bedrock/Claude/OpenAI-compatible/local), memory, and observability.
+- **Low-level tooling** - **[layout-audit](https://github.com/avifenesh/layout-audit)** (DWARF binary memory-layout analysis: padding, layout diffs, size budgets for C/C++/Rust/Go), **[scrump](https://github.com/avifenesh/scrump)** (format-aware secret scrubber for binary capture artifacts), and **[eigen](https://github.com/avifenesh/eigen)** (terminal-first local coding agent in Go: daemon, resumable sessions, multi-provider routing, observability).
 
 ## Inference & ML
 
 - **[gemma-expert-atlas](https://github.com/avifenesh/gemma-expert-atlas)** - static inspection, routing analysis, and conservative expert-surgery tracking for Gemma MoE checkpoints, with a triage decision ledger and KV-cache quantization eval.
 - Local-LLM serving and inference performance: speculative decoding / MTP, MoE expert routing and surgery, KV-cache quantization, and long-context serving on consumer GPUs.
 
-## Valkey
+## Valkey ecosystem
 
-I maintain **[Valkey GLIDE](https://github.com/valkey-io/valkey-glide)** and help run its community — triage, contributor onboarding, API review, reliability/TLS/timeout fixes, Java/JNI and Node/N-API, CI, docs, releases. I also contribute upstream to **[Valkey](https://github.com/valkey-io/valkey)** core, **docs**, and **website**, and started the official **[valkey-skills](https://github.com/valkey-io/valkey-skills)** (plus private Bedrock-AgentCore review automation for Valkey PRs).
-
-Ecosystem I build around it: **[glide-mq](https://github.com/avifenesh/glide-mq)** (high-performance Node.js queue on Valkey/Redis Streams, Rust N-API core, AI-native primitives; framework plugins for [Hono](https://github.com/avifenesh/glidemq-hono)/[Fastify](https://github.com/avifenesh/glidemq-fastify)/[Hapi](https://github.com/avifenesh/glidemq-hapi)/[NestJS](https://github.com/avifenesh/glidemq-nestjs)) and **[ocaml-valkey](https://github.com/avifenesh/ocaml-valkey)** (OCaml 5 + Eio client on [opam](https://opam.ocaml.org/packages/valkey), RESP3-only, cluster routing with AZ-aware reads, TLS/mTLS, Search/JSON/Bloom wrappers).
+Beyond GLIDE and core, I build infrastructure around Valkey: **[glide-mq](https://github.com/avifenesh/glide-mq)** (high-performance Node.js queue on Valkey/Redis Streams, Rust N-API core, AI-native primitives; framework plugins for [Hono](https://github.com/avifenesh/glidemq-hono)/[Fastify](https://github.com/avifenesh/glidemq-fastify)/[Hapi](https://github.com/avifenesh/glidemq-hapi)/[NestJS](https://github.com/avifenesh/glidemq-nestjs)) and **[ocaml-valkey](https://github.com/avifenesh/ocaml-valkey)** (OCaml 5 + Eio client on [opam](https://opam.ocaml.org/packages/valkey), RESP3-only, cluster routing with AZ-aware reads, TLS/mTLS, Search/JSON/Bloom wrappers).
 
 ---
 
