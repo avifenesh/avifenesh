@@ -3,13 +3,21 @@
 [![Sponsor Avi](https://img.shields.io/badge/Sponsor-Avi%20Fenesh-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/avifenesh)
 [![Sponsor agent-sh](https://img.shields.io/badge/Sponsor-agent--sh-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/agent-sh)
 
-I build low-level systems, local inference/ML tooling, and the infrastructure that lets AI agents do real work. By day I work on high-performance in-memory data systems at **AWS ElastiCache**; the OSS below is my own.
+I do applied ML research on my own hardware — speculative decoding, draft-head training, MoE compression, quantization — and build the low-level systems underneath it, from CUDA kernels to datastore clients. By day I work on high-performance in-memory data systems at **AWS ElastiCache**; the research and OSS below are my own. Working papers and evidence ledgers: **[avifenesh.ai](https://avifenesh.ai)**.
 
+[![avifenesh.ai](https://img.shields.io/badge/Research-avifenesh.ai-1f5d72?style=for-the-badge&logo=googlescholar&logoColor=white)](https://avifenesh.ai)
 [![X](https://img.shields.io/badge/X-avi__fenesh-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/avi_fenesh)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Avi%20Fenesh-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/avi-fenesh/)
 [![Stack Overflow](https://img.shields.io/badge/Stack%20Overflow-avifen-F48024?style=for-the-badge&logo=stackoverflow&logoColor=white)](https://stackoverflow.com/users/12085223/avifen)
 
 ---
+
+## Research & inference
+
+- **[bw24](https://github.com/avifenesh/bw24)** - from-scratch Rust + CUDA inference engine, bit-exact by construction: NVFP4, MoE spill, MTP speculative decoding, tuned against the measured limits of one Blackwell GPU. Runs four model families above llama.cpp on the same rig, plain and speculative decode both.
+- **[hqmtp](https://github.com/avifenesh/hqmtp)** - MTP draft-head research harness: a 212M StudentSV drafter chain-distilled to 85% of the co-trained teacher's acceptance at ~13% of the draft compute, plus the negative-result ledgers that redirected the project.
+- **Working papers** - [small-vocabulary MTP heads](https://avifenesh.ai/research/small-vocabulary-mtp/) and [prune, heal, quantize](https://avifenesh.ai/research/prune-heal-quantize/) (REAP-style MoE pruning + full-function healing + NVFP4), with methods, failed arms, and evidence ledgers in the open.
+- Upstream: imatrix-aware NVFP4 quantization in review at [llama.cpp](https://github.com/ggml-org/llama.cpp/pull/25153); hybrid-KV work in review at [vLLM](https://github.com/vllm-project/vllm/pull/42620) and [LMCache](https://github.com/LMCache/LMCache/pull/3285).
 
 ## Agent infrastructure
 
@@ -26,10 +34,6 @@ I build low-level systems, local inference/ML tooling, and the infrastructure th
 - **[rustowl](https://github.com/cordx56/rustowl)** - performance and reliability work on the ownership/lifetime visualizer (5k★ Rust): runtime/stack-size refactor, jemalloc integration, memory fixes, benchmarking, and CI/security-testing workflows.
 - **[FlowFabric](https://github.com/avifenesh/FlowFabric)** - Rust durable-execution engine for Valkey/Postgres/SQLite: lease-safe workers, waitpoints, HMAC-signed human approval, capability routing, budgets, and streaming output.
 - **Low-level tooling** - **[layout-audit](https://github.com/avifenesh/layout-audit)** (DWARF binary memory-layout analysis: padding, layout diffs, size budgets for C/C++/Rust/Go) and **[scrump](https://github.com/avifenesh/scrump)** (format-aware secret scrubber for binary capture artifacts).
-
-## Inference & ML
-
-Local-LLM serving and inference performance: speculative decoding / MTP, MoE expert routing and surgery, KV-cache quantization, and long-context serving on consumer GPUs.
 
 ## Valkey ecosystem
 
@@ -49,6 +53,6 @@ I spend real time on the support side of OSS: issue triage, reproductions, user 
 
 ## Contact
 
-**aviarchi1994@gmail.com** — systems, datastore internals, inference/ML, Valkey/Redis clients, agentic tooling.
+**aviarchi1994@gmail.com** · **[avifenesh.ai](https://avifenesh.ai)** — inference/ML research, systems, datastore internals, Valkey/Redis clients, agentic tooling.
 
 If this work saved you time, [sponsorship](https://github.com/sponsors/avifenesh) helps me keep doing it.
