@@ -2,11 +2,11 @@
 
 I like machines close to the metal and results you can measure. By day I build in-memory data systems at **AWS ElastiCache**; the rest of the time I train and compress small fast models, write CUDA, and maintain open-source tools people actually run.
 
-Research notes and working papers live at **[avifenesh.ai](https://avifenesh.ai)**. Issues, questions, and counterexamples are always welcome.
+Research notes and working papers live at **[avifenesh.ai](https://avifenesh.ai)**. I also run a one-person inference lab, **[tiyuvta](https://tiyuvta.ai)** — my engine serves a public OpenAI-compatible API there at **[inference.tiyuvta.ai](https://inference.tiyuvta.ai)**, so you can try it without owning the card. Issues, questions, and counterexamples are always welcome.
 
 ## ML research
 
-- **[memra](https://github.com/avifenesh/memra)** — from-scratch Rust + CUDA inference engine for one Blackwell GPU (formerly bw24). Bit-exact by construction; runs four model families above llama.cpp on the same rig, plain and speculative decode both. v0.69 shipped to crates.io with prebuilt binaries and FP8 checkpoint serving at 2.6–2.8× plain decode.
+- **[memra](https://github.com/avifenesh/memra)** — from-scratch Rust + CUDA inference engine for RTX PRO 6000 Blackwell and RTX 5090. Bit-exact by construction: speculative, graphed and batched serving are gated byte-identical to plain decode, per request. Safetensors is the tuned path, GGUF stays supported, and a mechanism that wins on one card and loses on the other becomes a per-device default rather than a compromise. On crates.io with prebuilt binaries; it serves **[inference.tiyuvta.ai](https://inference.tiyuvta.ai)** at a 262k context.
 - **[hqmtp](https://github.com/avifenesh/hqmtp)** — MTP draft-head lab, concluded. Function cuts (pruning, low-rank, distillation) pay a 10–19-point off-distribution tax that fidelity cuts don't; the zero-training trimmed-vocabulary recipe won at 1.8–2.7× end to end. The negative results stay in the ledger.
 - **[recipe-lab](https://github.com/avifenesh/recipe-lab)** — layer-loop weight sharing + ε=λ/(N√L) residual scaling, combined for the first time and tested from zero in 11 pre-registered rounds. In the data-constrained regime the looped model beat FLOPs-matched vanilla in all three mixer families — attention, pure SSM, and hybrid; seven paired runs, zero sign flips — with 26–34% fewer parameters. Rule isolated: loop the state-mixer, never the retriever.
 - **[mem-retrofit](https://github.com/avifenesh/mem-retrofit)** — grafted a product-key memory layer onto a stock dense 4B and ran it against LoRA over sequential updates. The retrofit is free at lr/10; the published forgetting advantage failed 12/12 confidence intervals.
