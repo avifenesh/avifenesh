@@ -2,7 +2,11 @@
 
 I like machines close to the metal and results you can measure. By day I build in-memory data systems at **AWS ElastiCache**; the rest of the time I train and compress small fast models, write CUDA, and maintain open-source tools people actually run.
 
-Research notes and working papers live at **[avifenesh.ai](https://avifenesh.ai)**. I also run a one-person inference lab, **[tiyuvta](https://tiyuvta.ai)** — my engine serves a public OpenAI-compatible API there at **[inference.tiyuvta.ai](https://inference.tiyuvta.ai)**, so you can try it without owning the card. Issues, questions, and counterexamples are always welcome.
+Research notes and working papers live at **[avifenesh.ai](https://avifenesh.ai)**. Issues, questions, and counterexamples are always welcome.
+
+## tiyuvta
+
+**[tiyuvta](https://tiyuvta.ai)** is the independent AI lab I founded, with one job: making inference faster, tokens cheaper, and intelligence better. Three legs. A hosted inference API for agent workloads at **[inference.tiyuvta.ai](https://inference.tiyuvta.ai)**: OpenAI- and Anthropic-compatible, streaming, speech-to-text on the same key. Setting up inference systems for teams that run their own, locally or in their cloud. And research into faster inference, smarter models and cheaper tokens, measured on the same serving path customers use. Public latency and uptime at [status.tiyuvta.ai](https://status.tiyuvta.ai). Examples: **[tiyuvta-use-cases](https://github.com/avifenesh/tiyuvta-use-cases)** · **[llm-tiyuvta](https://github.com/avifenesh/llm-tiyuvta)**.
 
 ## ML research
 
@@ -16,8 +20,7 @@ Research notes and working papers live at **[avifenesh.ai](https://avifenesh.ai)
 
 ## Maintaining
 
-- **[Valkey GLIDE](https://github.com/valkey-io/valkey-glide)** — the official multi-language Valkey/Redis client. Rust core, Java/JNI, Node/N-API; 158 PRs authored, 480 reviewed, plus releases and the support that starts after the code works.
-- **[valkey-skills](https://github.com/valkey-io/valkey-skills)** — official AI skills for the Valkey ecosystem. Started it, maintain it.
+- **[Valkey](https://github.com/valkey-io/valkey)** and its ecosystem. I maintain **[Valkey GLIDE](https://github.com/valkey-io/valkey-glide)**, the official multi-language client (Rust core, Java/JNI, Node/N-API), and **[valkey-skills](https://github.com/valkey-io/valkey-skills)**, the official AI skills for the ecosystem, which I started. I contribute to Valkey itself, and a good part of my open-source time goes to the people around it: the clients team, talks, and helping the people who run it.
 - **[agent-sh](https://github.com/agent-sh)** — my org: an ecosystem of tools for agent-assisted development, working across Claude Code, Codex, OpenCode, Cursor, and Kiro.
 - **[glide-mq](https://github.com/avifenesh/glide-mq)** — Node.js queue on Valkey Streams with a Rust N-API core, plus adapters for [Hono](https://github.com/avifenesh/glidemq-hono), [Fastify](https://github.com/avifenesh/glidemq-fastify), [Hapi](https://github.com/avifenesh/glidemq-hapi), [NestJS](https://github.com/avifenesh/glidemq-nestjs) and a [dashboard](https://github.com/avifenesh/glidemq-dashboard).
 - Also around: **[RustOwl](https://github.com/cordx56/rustowl)** (runtime, memory, and CI work) and **[ChatGPT Desktop for Linux](https://github.com/ilysenko/codex-desktop-linux)** (Wayland input, accessibility, packaging).
