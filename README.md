@@ -47,7 +47,7 @@ The lab's models are on **[Hugging Face](https://huggingface.co/tiyuvta)**: NVFP
 
 - **[agnix](https://github.com/agent-sh/agnix)**: linter and language server for AI agent configs: 444 rules with autofixes, a GitHub Action, an MCP server, and editor plugins.
 - **[computer-use-linux](https://github.com/agent-sh/computer-use-linux)** / **[agent-workspace-linux](https://github.com/agent-sh/agent-workspace-linux)**: Linux desktop control over MCP, and isolated agent-owned desktops so an agent never has to touch your real machine.
-- **[parlar](https://github.com/agent-sh/parlar)**: voice mode for Claude Code and Codex. You talk to a running session, idle or mid-work, and it answers out loud. Local CPU only: VAD, Phonon-2 recognition, Kokoro speech. On [crates.io](https://crates.io/crates/parlar).
+- **[parlar](https://github.com/agent-sh/parlar)**: voice mode for Claude Code and Codex. You talk to a running session, idle or mid-work, and it answers out loud. Local CPU only: VAD, Phonon-2 recognition, Kokoro speech. On [npm](https://www.npmjs.com/package/@agent-sh/parlar) and [crates.io](https://crates.io/crates/parlar).
 - **[agentsys](https://github.com/agent-sh/agentsys)**: the agent-sh plugin set (workflow, review, ship, deslop, perf) for Claude Code, OpenCode, Codex, Cursor, and Kiro.
 - **[revuto](https://github.com/avifenesh/revuto)**: local PR reviewer that works with any model and learns each repo from its PR history and maintainer feedback. It reviews my own repos.
 - **[harness tools](https://github.com/avifenesh/tools)**: read, write, grep, glob, bash, webfetch, lsp and skill tools built for LLM callers, as `@agent-sh/harness-*` on npm with Rust ports at parity.
