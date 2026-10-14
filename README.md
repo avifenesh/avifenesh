@@ -47,14 +47,15 @@ The lab's models are on **[Hugging Face](https://huggingface.co/tiyuvta)**: NVFP
 
 ## Agents
 
-- **[agnix](https://github.com/agent-sh/agnix)**: linter and language server for AI agent configs: 458 rules with autofixes, a GitHub Action, an MCP server, and editor plugins.
-- **[computer-use-linux](https://github.com/agent-sh/computer-use-linux)** / **[agent-workspace-linux](https://github.com/agent-sh/agent-workspace-linux)**: Linux desktop control over MCP, and isolated agent-owned desktops so an agent never has to touch your real machine.
+- **[agnix](https://github.com/agent-sh/agnix)**: linter and language server for AI agent configs: 455 rules with autofixes, a GitHub Action, an MCP server, and editor plugins.
+- **[tower-crane](https://github.com/agent-sh/tower-crane)**: plan, dispatch, review and merge agent work from one issue to a whole project; state in plain `.tower-crane/` files, worktree and sandbox isolation, software gates, and independent review. On [npm](https://www.npmjs.com/package/@agent-sh/tower-crane).
+- **[tacit](https://github.com/agent-sh/tacit)**: local or shared fact memory for coding agents in plain Markdown and git, with lexical FTS5 retrieval, git-derived facts, and source-grounded verification.
+- **[computer-use-linux](https://github.com/agent-sh/computer-use-linux)** / **[agent-workspace-linux](https://github.com/agent-sh/agent-workspace-linux)** / **[agent-chrome-bridge](https://github.com/agent-sh/agent-chrome-bridge)**: Linux desktop control over MCP, isolated agent-owned desktops, and a shared local Chrome bridge for Claude Code and Codex.
 - **[parlar](https://github.com/agent-sh/parlar)**: voice mode for Claude Code and Codex. You talk to a running session, idle or mid-work, and it answers out loud. Local CPU only: VAD, Phonon-2 recognition, Kokoro speech. On [npm](https://www.npmjs.com/package/@agent-sh/parlar) and [crates.io](https://crates.io/crates/parlar).
 - **[agentsys](https://github.com/agent-sh/agentsys)**: the agent-sh plugin set (workflow, review, ship, deslop, perf) for Claude Code, OpenCode, Codex, Cursor, and Kiro.
+- **[harness tools](https://github.com/agent-sh/tools)**: `read`, `write`, `grep`, `glob`, `bash`, `batch`, `webfetch`, `websearch`, `lsp` and `skill` tools built for LLM callers (`@agent-sh/harness-*` on npm, `harness-tools` on crates.io), plus `@agent-sh/harness-web-mcp` for keyless web search and fetch over MCP.
 - **[research-skills](https://github.com/avifenesh/research-skills)**: two AgentSkills for ML systems research: write and check the arXiv paper (`paper_lint.py`), and build, audit and release the code, benchmark and model repo behind it (`repo_audit.py`).
 - **[revuto](https://github.com/avifenesh/revuto)**: local PR reviewer that works with any model and learns each repo from its PR history and maintainer feedback. It reviews my own repos.
-- **[harness tools](https://github.com/avifenesh/tools)**: read, write, grep, glob, bash, webfetch, lsp and skill tools built for LLM callers, as `@agent-sh/harness-*` on npm with Rust ports at parity.
-- **[linubot](https://github.com/agent-sh/linubot)**: Linux desktop app for a team of AI helpers: per-bot providers, memory, and isolated computer workspaces.
 - **[Codex Desktop for Linux](https://github.com/ilysenko/codex-desktop-linux)**: contributor (120+ commits) to the unofficial Linux build of the ChatGPT/Codex desktop app. Linux Computer Use, Read Aloud and conversation mode, the in-app updater, launcher hardening.
 
 ## Elsewhere
