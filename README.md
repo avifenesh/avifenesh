@@ -1,16 +1,15 @@
 # Hey, I'm Avi 👋
 
-I like machines close to the metal and results you can measure. I run **[tiyuvta](https://tiyuvta.ai)**, a research lab that helps companies choose, adapt and deploy open models on their hardware or cloud account. I also build in-memory data systems at **AWS ElastiCache**, and maintain open-source tools people actually run.
+I do ML research and maintain open source. The research is about making open models cheaper to train and run: model execution, quantization, pruning, speculative decoding and KV cache placement, with the failed arms published next to the wins. Papers and notes are at **[avifenesh.ai/research](https://avifenesh.ai/research/)**, articles at **[avifenesh.ai/writing](https://avifenesh.ai/writing/)**.
 
-Research notes and working papers live at **[avifenesh.ai](https://avifenesh.ai)**. Issues, questions, and counterexamples are always welcome.
+On the open-source side I maintain **[Valkey GLIDE](https://github.com/valkey-io/valkey-glide)** and its client family, **[valkey-skills](https://github.com/valkey-io/valkey-skills)** and **[valkey-review-bot](https://github.com/valkey-io/valkey-review-bot)**, and I run **[agent-sh](https://github.com/agent-sh)**, open tools for AI coding agents. I also build in-memory data systems at **AWS ElastiCache**, and run **[tiyuvta](https://tiyuvta.ai)**, a research lab that helps companies run open models on their own hardware or cloud account.
 
-## tiyuvta
+Issues, questions, and counterexamples are always welcome.
 
-**[tiyuvta](https://tiyuvta.ai)** is my research lab. We help companies run open models on their hardware or cloud account. The work includes model and hardware assessment, deployment and serving-engine optimization, fine-tuning and evaluation, and cloud setup. We compare options on your workload and budget, then agree the deliverables, handover and support.
-
-Our research in model execution, quantization, pruning, speculative decoding and Hebrew models informs that work. **[See the services and discuss your project](https://tiyuvta.ai/services/)**.
-
-The lab's models are on **[Hugging Face](https://huggingface.co/tiyuvta)**: NVFP4 builds of GLM, DeepSeek, MiMo, Qwen and DictaLM, MTP draft heads in GGUF, and Phonon-2 in ONNX.
+<p align="center">
+  <a href="https://github.com/sponsors/avifenesh"><img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-db61a2?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Sponsor"></a>
+</p>
+<p align="center"><b>Built and maintained with a lot of agent tokens and hours. If it saves you time, <a href="https://github.com/sponsors/avifenesh">sponsoring</a> helps keep it going.</b></p>
 
 ## ML research
 
@@ -22,6 +21,15 @@ The lab's models are on **[Hugging Face](https://huggingface.co/tiyuvta)**: NVFP
 - **[mem-retrofit](https://github.com/avifenesh/mem-retrofit)**: grafted a product-key memory layer onto a stock dense 4B and ran it against LoRA over sequential updates. The retrofit is free at lr/10; the published forgetting advantage failed 12/12 confidence intervals.
 - More studies with receipts: **[fixed-compute-frontier](https://github.com/avifenesh/fixed-compute-frontier)** (a preregistered kill-gate ledger, ~84 theory lanes) · **[gemma-expert-atlas](https://github.com/avifenesh/gemma-expert-atlas)** (26B MoE expert surgery, 3,840 experts traced) · **[block-routed-swiglu](https://github.com/avifenesh/block-routed-swiglu)** (near-free kernel, refuted capability) · **[moe-lab](https://github.com/avifenesh/moe-lab)** · **[assumption-excavator](https://github.com/avifenesh/assumption-excavator)**.
 - Working papers: **[small-vocabulary MTP heads](https://avifenesh.ai/research/small-vocabulary-mtp/)** · **[prune, heal, quantize](https://avifenesh.ai/research/prune-heal-quantize/)**. Methods, failed arms, and evidence in the open.
+- Articles: **[How AI workloads changed the queue I was already building](https://avifenesh.ai/writing/how-ai-workloads-changed-the-queue/)** · **[Your AI agent configs are probably broken (and you don't know it)](https://avifenesh.ai/writing/your-ai-agent-configs-are-probably-broken/)**.
+
+## Maintaining
+
+- **[Valkey](https://github.com/valkey-io/valkey)** and its ecosystem. I maintain **[Valkey GLIDE](https://github.com/valkey-io/valkey-glide)**, the official multi-language client (Rust core, Java/JNI, Node/N-API), with its [C++](https://github.com/valkey-io/valkey-glide-cpp), [C#](https://github.com/valkey-io/valkey-glide-csharp) and [Ruby](https://github.com/valkey-io/valkey-glide-ruby) clients and the [GLIDE docs](https://github.com/valkey-io/valkey-glide-docs), and **[valkey-skills](https://github.com/valkey-io/valkey-skills)**, the official AI skills for the ecosystem, which I started. I contribute to Valkey itself, and a good part of my open-source time goes to the people around it: the clients team, talks, and helping the people who run it.
+- **[valkey-review-bot](https://github.com/valkey-io/valkey-review-bot)**: the automated reviewer on Valkey and Valkey GLIDE pull requests, which I built and maintain. It checks a change against a real checkout, builds and runs tests when that helps, and posts inline findings with a merge-risk and backport verdict. It never approves; that stays with maintainers. So far it has reviewed 600+ pull requests.
+- **[agent-sh](https://github.com/agent-sh)**, my org: open tools for agent-assisted development across Claude Code, Codex, OpenCode, Cursor, and Kiro, led by [agentsys](https://github.com/agent-sh/agentsys), [agnix](https://github.com/agent-sh/agnix), [computer-use-linux](https://github.com/agent-sh/computer-use-linux) and [agent-workspace-linux](https://github.com/agent-sh/agent-workspace-linux).
+- **[glide-mq](https://github.com/avifenesh/glide-mq)**: Node.js queue on Valkey Streams with a Rust N-API core, plus adapters for [Hono](https://github.com/avifenesh/glidemq-hono), [Fastify](https://github.com/avifenesh/glidemq-fastify), [Hapi](https://github.com/avifenesh/glidemq-hapi), [NestJS](https://github.com/avifenesh/glidemq-nestjs) and a [dashboard](https://github.com/avifenesh/glidemq-dashboard).
+- Also around: **[RustOwl](https://github.com/cordx56/rustowl)** (runtime, memory, and CI work).
 
 ## Upstream contributions
 
@@ -37,13 +45,17 @@ Open fixes and features:
 - **[LMCache](https://github.com/LMCache/LMCache)**: [binary buffers](https://github.com/LMCache/LMCache/pull/3285) and [safe read failures](https://github.com/LMCache/LMCache/pull/3292) in the local disk backend.
 - **[llama.cpp](https://github.com/ggml-org/llama.cpp)**: [imatrix-aware NVFP4 quantization](https://github.com/ggml-org/llama.cpp/pull/25153).
 
-## Maintaining
+## Agents
 
-- **[Valkey](https://github.com/valkey-io/valkey)** and its ecosystem. I maintain **[Valkey GLIDE](https://github.com/valkey-io/valkey-glide)**, the official multi-language client (Rust core, Java/JNI, Node/N-API), and **[valkey-skills](https://github.com/valkey-io/valkey-skills)**, the official AI skills for the ecosystem, which I started. I contribute to Valkey itself, and a good part of my open-source time goes to the people around it: the clients team, talks, and helping the people who run it.
-- **[valkey-review-bot](https://github.com/valkey-io/valkey-review-bot)**: the automated reviewer on Valkey and Valkey GLIDE pull requests, which I built and maintain. It checks a change against a real checkout, builds and runs tests when that helps, and posts inline findings with a merge-risk and backport verdict. It never approves; that stays with maintainers. So far it has reviewed 600+ pull requests.
-- **[agent-sh](https://github.com/agent-sh)**, my org: an ecosystem of tools for agent-assisted development, working across Claude Code, Codex, OpenCode, Cursor, and Kiro.
-- **[glide-mq](https://github.com/avifenesh/glide-mq)**: Node.js queue on Valkey Streams with a Rust N-API core, plus adapters for [Hono](https://github.com/avifenesh/glidemq-hono), [Fastify](https://github.com/avifenesh/glidemq-fastify), [Hapi](https://github.com/avifenesh/glidemq-hapi), [NestJS](https://github.com/avifenesh/glidemq-nestjs) and a [dashboard](https://github.com/avifenesh/glidemq-dashboard).
-- Also around: **[RustOwl](https://github.com/cordx56/rustowl)** (runtime, memory, and CI work).
+- **[agnix](https://github.com/agent-sh/agnix)**: linter and language server for AI agent configs: 757 rules with autofixes, a GitHub Action, an MCP server, and editor plugins.
+- **[tacit](https://github.com/agent-sh/tacit)**: local or shared fact memory for coding agents in plain Markdown and git, with lexical FTS5 retrieval, git-derived facts, and source-grounded verification.
+- **[computer-use-linux](https://github.com/agent-sh/computer-use-linux)** / **[agent-workspace-linux](https://github.com/agent-sh/agent-workspace-linux)** / **[agent-chrome-bridge](https://github.com/agent-sh/agent-chrome-bridge)**: Linux desktop control over MCP, isolated agent-owned desktops, and a shared local Chrome bridge for Claude Code and Codex.
+- **[parlar](https://github.com/agent-sh/parlar)**: voice mode for Claude Code and Codex. You talk to a running session, idle or mid-work, and it answers out loud. Local CPU only: VAD, Phonon-2 recognition, Kokoro speech. On [npm](https://www.npmjs.com/package/@agent-sh/parlar) and [crates.io](https://crates.io/crates/parlar).
+- **[agentsys](https://github.com/agent-sh/agentsys)**: the agent-sh plugin set (workflow, review, ship, deslop, perf) for Claude Code, OpenCode, Codex, Cursor, and Kiro.
+- **[harness tools](https://github.com/agent-sh/tools)**: `read`, `write`, `grep`, `glob`, `bash`, `batch`, `webfetch`, `websearch`, `lsp` and `skill` tools built for LLM callers (`@agent-sh/harness-*` on npm, `harness-tools` on crates.io), plus `@agent-sh/harness-web-mcp` for keyless web search and fetch over MCP.
+- **[research-skills](https://github.com/avifenesh/research-skills)**: two AgentSkills for ML systems research: write and check the arXiv paper (`paper_lint.py`), and build, audit and release the code, benchmark and model repo behind it (`repo_audit.py`).
+- **[revuto](https://github.com/avifenesh/revuto)**: local PR reviewer that works with any model and learns each repo from its PR history and maintainer feedback. It reviews my own repos.
+- **[Codex Desktop for Linux](https://github.com/ilysenko/codex-desktop-linux)**: contributor (120+ commits) to the unofficial Linux build of the ChatGPT/Codex desktop app. Linux Computer Use, Read Aloud and conversation mode, the in-app updater, launcher hardening.
 
 ## Systems
 
@@ -54,18 +66,13 @@ Open fixes and features:
 - **[scrump](https://github.com/avifenesh/scrump)**: format-aware secret scrubber for binary capture artifacts: perf.data, core dumps, nsys traces, JFR.
 - **[ocaml-valkey](https://github.com/avifenesh/ocaml-valkey)**: OCaml 5 + Eio Valkey client, published on [opam](https://opam.ocaml.org/packages/valkey).
 
-## Agents
+## tiyuvta
 
-- **[agnix](https://github.com/agent-sh/agnix)**: linter and language server for AI agent configs: 455 rules with autofixes, a GitHub Action, an MCP server, and editor plugins.
-- **[tower-crane](https://github.com/agent-sh/tower-crane)**: plan, dispatch, review and merge agent work from one issue to a whole project; state in plain `.tower-crane/` files, worktree and sandbox isolation, software gates, and independent review. On [npm](https://www.npmjs.com/package/@agent-sh/tower-crane).
-- **[tacit](https://github.com/agent-sh/tacit)**: local or shared fact memory for coding agents in plain Markdown and git, with lexical FTS5 retrieval, git-derived facts, and source-grounded verification.
-- **[computer-use-linux](https://github.com/agent-sh/computer-use-linux)** / **[agent-workspace-linux](https://github.com/agent-sh/agent-workspace-linux)** / **[agent-chrome-bridge](https://github.com/agent-sh/agent-chrome-bridge)**: Linux desktop control over MCP, isolated agent-owned desktops, and a shared local Chrome bridge for Claude Code and Codex.
-- **[parlar](https://github.com/agent-sh/parlar)**: voice mode for Claude Code and Codex. You talk to a running session, idle or mid-work, and it answers out loud. Local CPU only: VAD, Phonon-2 recognition, Kokoro speech. On [npm](https://www.npmjs.com/package/@agent-sh/parlar) and [crates.io](https://crates.io/crates/parlar).
-- **[agentsys](https://github.com/agent-sh/agentsys)**: the agent-sh plugin set (workflow, review, ship, deslop, perf) for Claude Code, OpenCode, Codex, Cursor, and Kiro.
-- **[harness tools](https://github.com/agent-sh/tools)**: `read`, `write`, `grep`, `glob`, `bash`, `batch`, `webfetch`, `websearch`, `lsp` and `skill` tools built for LLM callers (`@agent-sh/harness-*` on npm, `harness-tools` on crates.io), plus `@agent-sh/harness-web-mcp` for keyless web search and fetch over MCP.
-- **[research-skills](https://github.com/avifenesh/research-skills)**: two AgentSkills for ML systems research: write and check the arXiv paper (`paper_lint.py`), and build, audit and release the code, benchmark and model repo behind it (`repo_audit.py`).
-- **[revuto](https://github.com/avifenesh/revuto)**: local PR reviewer that works with any model and learns each repo from its PR history and maintainer feedback. It reviews my own repos.
-- **[Codex Desktop for Linux](https://github.com/ilysenko/codex-desktop-linux)**: contributor (120+ commits) to the unofficial Linux build of the ChatGPT/Codex desktop app. Linux Computer Use, Read Aloud and conversation mode, the in-app updater, launcher hardening.
+**[tiyuvta](https://tiyuvta.ai)** is my research lab. We help companies run open models on their hardware or cloud account. The work includes model and hardware assessment, deployment and serving-engine optimization, fine-tuning and evaluation, and cloud setup. We compare options on your workload and budget, then agree the deliverables, handover and support.
+
+Our research in model execution, quantization, pruning, speculative decoding and Hebrew models informs that work. **[See the services and discuss your project](https://tiyuvta.ai/services/)**.
+
+The lab's models are on **[Hugging Face](https://huggingface.co/tiyuvta)**: NVFP4 builds of GLM, DeepSeek, MiMo, Qwen and DictaLM, MTP draft heads in GGUF, and Phonon-2 in ONNX.
 
 ## Elsewhere
 
