@@ -44,6 +44,7 @@ Open fixes and features:
 - **[llm-compressor](https://github.com/vllm-project/llm-compressor)**: [activation caching for validated dataclasses](https://github.com/vllm-project/llm-compressor/pull/3144).
 - **[LMCache](https://github.com/LMCache/LMCache)**: [binary buffers](https://github.com/LMCache/LMCache/pull/3285) and [safe read failures](https://github.com/LMCache/LMCache/pull/3292) in the local disk backend.
 - **[llama.cpp](https://github.com/ggml-org/llama.cpp)**: [imatrix-aware NVFP4 quantization](https://github.com/ggml-org/llama.cpp/pull/25153).
+- **[xLLM](https://github.com/ifm-ai/xllm)**: [optimizer offload with fp32 masters and AdamW state in host memory](https://github.com/ifm-ai/xllm/pull/36) and [flash-attn 2 `num_splits` pass-through](https://github.com/ifm-ai/xllm/pull/34).
 
 ## Agents
 
