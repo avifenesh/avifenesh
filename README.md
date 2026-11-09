@@ -73,7 +73,7 @@ Open fixes and features:
 
 Our research in model execution, quantization, pruning, speculative decoding and Hebrew models informs that work. **[See the services and discuss your project](https://tiyuvta.ai/services/)**.
 
-The lab's models are on **[Hugging Face](https://huggingface.co/tiyuvta)**: NVFP4 builds of GLM, DeepSeek, MiMo, Qwen and DictaLM, MTP draft heads in GGUF, and Phonon-2 in ONNX.
+The lab's models are on **[Hugging Face](https://huggingface.co/tiyuvta)**: NVFP4 builds of GLM, DeepSeek, MiMo, Hy3, Qwen and DictaLM, MTP and block-diffusion draft heads for speculative decoding, and Phonon-2 in ONNX.
 
 ## Elsewhere
 
