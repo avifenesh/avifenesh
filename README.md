@@ -31,21 +31,6 @@ Issues, questions, and counterexamples are always welcome.
 - **[glide-mq](https://github.com/avifenesh/glide-mq)**: Node.js queue on Valkey Streams with a Rust N-API core, plus adapters for [Hono](https://github.com/avifenesh/glidemq-hono), [Fastify](https://github.com/avifenesh/glidemq-fastify), [Hapi](https://github.com/avifenesh/glidemq-hapi), [NestJS](https://github.com/avifenesh/glidemq-nestjs) and a [dashboard](https://github.com/avifenesh/glidemq-dashboard).
 - Also around: **[RustOwl](https://github.com/cordx56/rustowl)** (runtime, memory, and CI work).
 
-## Upstream contributions
-
-Open fixes and features:
-
-- **[vLLM](https://github.com/vllm-project/vllm)**: [NVFP4 fused-shard weight scales](https://github.com/vllm-project/vllm/pull/59845), [GLM-5.x NVFP4 MLA weight loading](https://github.com/vllm-project/vllm/pull/59833), and [client-executed tool search](https://github.com/vllm-project/vllm/pull/59792).
-- **[SGLang](https://github.com/sgl-project/sglang)**:
-  - Inference: [SM120 DeepSeek V4 decode dispatch](https://github.com/sgl-project/sglang/pull/42445), [long FP8 prefill on RTX PRO 6000](https://github.com/sgl-project/sglang/pull/42451), [MiMo ModelOpt mappings](https://github.com/sgl-project/sglang/pull/42450), and [deferred NVFP4 scale layouts](https://github.com/sgl-project/sglang/pull/42452).
-  - HiCache: [host Mamba capacity and per-pool metrics](https://github.com/sgl-project/sglang/pull/42443) and [device-only SWA prefix matches](https://github.com/sgl-project/sglang/pull/42446).
-  - Tool calls and diagnostics: [strict DSML validation](https://github.com/sgl-project/sglang/pull/42442), [Qwen3Coder JSON repair](https://github.com/sgl-project/sglang/pull/42448), and [credential redaction](https://github.com/sgl-project/sglang/pull/42444).
-  - Routing: a [shared Valkey placement index](https://github.com/sgl-project/sglang/pull/42447) and [event replay, worker liveness and failover](https://github.com/sgl-project/sglang/pull/42449), with a [demo under load](https://github.com/avifenesh/sglang-valkey-demo).
-- **[llm-compressor](https://github.com/vllm-project/llm-compressor)**: [activation caching for validated dataclasses](https://github.com/vllm-project/llm-compressor/pull/3144).
-- **[LMCache](https://github.com/LMCache/LMCache)**: [binary buffers](https://github.com/LMCache/LMCache/pull/3285) and [safe read failures](https://github.com/LMCache/LMCache/pull/3292) in the local disk backend.
-- **[llama.cpp](https://github.com/ggml-org/llama.cpp)**: [imatrix-aware NVFP4 quantization](https://github.com/ggml-org/llama.cpp/pull/25153).
-- **[xLLM](https://github.com/ifm-ai/xllm)**: [optimizer offload with fp32 masters and AdamW state in host memory](https://github.com/ifm-ai/xllm/pull/36) and [flash-attn 2 `num_splits` pass-through](https://github.com/ifm-ai/xllm/pull/34).
-
 ## Agents
 
 - **[agnix](https://github.com/agent-sh/agnix)**: linter and language server for AI agent configs: 757 rules with autofixes, a GitHub Action, an MCP server, and editor plugins.
@@ -60,7 +45,7 @@ Open fixes and features:
 
 ## Systems
 
-- **[Valkey](https://github.com/valkey-io/valkey)**: core contributor; sync-from-replica replication in review. On the side: CRIU copy-on-write live-migration research, under 50 ms of freeze while migrating a 200 GB loaded instance.
+- **[Valkey](https://github.com/valkey-io/valkey)**: core contributor. On the side: CRIU copy-on-write live-migration research, under 50 ms of freeze while migrating a 200 GB loaded instance.
 - **[ferrings](https://github.com/avifenesh/ferrings)**: io_uring TCP transport for Node.js with a Rust N-API core. 2.5x Node `http` throughput and 37-57% fewer syscalls per connection in the published bench. On [npm](https://www.npmjs.com/package/ferrings).
 - **[FlowFabric](https://github.com/avifenesh/FlowFabric)**: durable-execution engine in Rust for Valkey, Postgres, and SQLite: lease-safe workers, waitpoints, budgets.
 - **[layout-audit](https://github.com/avifenesh/layout-audit)**: DWARF memory-layout analysis: padding, layout diffs, size budgets for C/C++/Rust/Go.
