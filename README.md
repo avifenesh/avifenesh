@@ -54,17 +54,20 @@ Issues, questions, and counterexamples are always welcome.
 
 ## tiyuvta
 
-**[tiyuvta](https://tiyuvta.ai)** is my research lab. We help companies run open models on their hardware or cloud account. The work includes model and hardware assessment, deployment and serving-engine optimization, fine-tuning and evaluation, and cloud setup. We compare options on your workload and budget, then agree the deliverables, handover and support.
+**[tiyuvta](https://tiyuvta.ai)** works across two tracks:
 
-Our research in model execution, quantization, pruning, speculative decoding and Hebrew models informs that work. **[See the services and discuss your project](https://tiyuvta.ai/services/)**.
+- **AI integration and private deployment for non-tech companies**: tailored AI assistants connected to existing business tools, model and hardware selection, fine-tuning where it pays off, and private deployment on hardware or cloud accounts you control. **[See the services](https://tiyuvta.ai/services/)**.
+- **Bounded deployment recipe studies for partners**: for technical teams, hardware vendors, and integrators delivering a contracted customer deployment on concrete hardware (from a Mac mini or RTX 5090 laptop to two DGX Sparks or four RTX PRO 6000 cards), returning a reproducible recipe with measured wins, failed arms, operating limits, and rollback steps. **[Scope a partner recipe study](https://tiyuvta.ai/partners/)**.
 
-The lab's models are on **[Hugging Face](https://huggingface.co/tiyuvta)**: NVFP4 builds of GLM, DeepSeek, MiMo, Hy3, Qwen and DictaLM, MTP and block-diffusion draft heads for speculative decoding, and Phonon-2 in ONNX.
+Engineering notes on quantization, speculative decoding, KV-cache scheduling, reinforcement learning, and Hebrew tokenization are published at **[tiyuvta.ai/research](https://tiyuvta.ai/research/)**.
+
+Open checkpoints, draft heads, and adapters (50 public models, including NVFP4 builds, MTP and block-diffusion drafters, Gated DeltaNet adapters, and ONNX speech models) are on **[Hugging Face (`Avifenesh`)](https://huggingface.co/Avifenesh)**.
 
 ## Elsewhere
 
 - Talks: **[Inside Valkey GLIDE](https://developers.podcast.go-aws.com/web/episodes/165/index.html)** on the AWS Developers Podcast · **[Glide into resiliency](https://www.youtube.com/live/j4myaAsk8_8)** on Let's Talk About Data
-- Writing: **[avifenesh.ai/writing](https://avifenesh.ai/writing/)** · answering on **[Stack Overflow](https://stackoverflow.com/users/12085223/avifen)**
-- Hugging Face: **[Avifenesh](https://huggingface.co/Avifenesh)** · **[tiyuvta](https://huggingface.co/tiyuvta)**
+- Writing: **[avifenesh.ai/writing](https://avifenesh.ai/writing/)** · **[tiyuvta.ai/research](https://tiyuvta.ai/research/)** · answering on **[Stack Overflow](https://stackoverflow.com/users/12085223/avifen)**
+- Hugging Face: **[Avifenesh](https://huggingface.co/Avifenesh)**
 - 📫 **[aviarchi1994@gmail.com](mailto:aviarchi1994@gmail.com)** · [LinkedIn](https://www.linkedin.com/in/avi-fenesh/) · [X](https://x.com/avi_fenesh)
 
 If something here saved you time, [sponsoring](https://github.com/sponsors/avifenesh) helps me keep doing it.
