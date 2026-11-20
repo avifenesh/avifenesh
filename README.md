@@ -56,7 +56,7 @@ Issues, questions, and counterexamples are always welcome.
 
 **[tiyuvta](https://tiyuvta.ai)** works across two tracks:
 
-- **AI integration and private deployment for non-tech companies**: tailored AI assistants connected to existing business tools, model and hardware selection, fine-tuning where it pays off, and private deployment on hardware or cloud accounts you control. **[See the services](https://tiyuvta.ai/services/)**.
+- **AI integration and private deployment for companies**: tailored AI assistants connected to existing business tools, model and hardware selection, fine-tuning where it pays off, and private deployment on hardware or cloud accounts you control. **[See the services](https://tiyuvta.ai/services/)**.
 - **Bounded deployment recipe studies for partners**: for technical teams, hardware vendors, and integrators delivering a contracted customer deployment on concrete hardware (from a Mac mini or RTX 5090 laptop to two DGX Sparks or four RTX PRO 6000 cards), returning a reproducible recipe with measured wins, failed arms, operating limits, and rollback steps. **[Scope a partner recipe study](https://tiyuvta.ai/partners/)**.
 
 Engineering notes on quantization, speculative decoding, KV-cache scheduling, reinforcement learning, and Hebrew tokenization are published at **[tiyuvta.ai/research](https://tiyuvta.ai/research/)**.
